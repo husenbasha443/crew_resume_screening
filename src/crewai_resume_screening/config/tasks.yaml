@@ -1,0 +1,39 @@
+job_analysis_task:
+  description: >
+    Analyze the provided job description and extract:
+    - Required technical and soft skills
+    - Key responsibilities
+    - Expected experience level
+  expected_output: >
+    A structured summary containing:
+    - List of required skills
+    - Key job responsibilities
+    - Experience expectations
+  agent: job_analyst_agent
+
+skill_matching_task:
+  description: >
+    Compare the extracted job requirements with the candidate's skills.
+    Identify:
+    - Matching skills
+    - Missing or weak skills
+    - Overall qualitative suitability summary
+  expected_output: >
+    A comparison report including:
+    - Matching skills
+    - Missing skills
+    - Overall suitability summary
+  agent: skill_matching_agent
+
+interview_question_task:
+  description: >
+    Generate interview questions based on:
+    - Job requirements
+    - Candidate skill gaps
+    Include a mix of technical, scenario-based, and behavioral questions.
+  expected_output: >
+    A list of at least 10 interview questions:
+    - Technical questions
+    - Scenario-based questions
+    - Behavioral questions
+  agent: interview_planner_agent
