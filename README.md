@@ -14,35 +14,34 @@ This project follows a **clean `src/` layout**, supports blogs & knowledge inges
 
 crewai_resume_screening/
 │
-├── .venv/                      # Python virtual environment
+├── .venv/                      
 │
 ├── blogs/
-│   └── blog.md                 # Blog or markdown content
+│   └── blog.md                 
 │
-├── knowledge/                  # Knowledge base (RAG-ready)
+├── knowledge/                  
 │
 ├── src/
 │   └── crewai_resume_screening/
 │       ├── **pycache**/
 │       │
 │       ├── config/
-│       │   ├── agents.yaml     # Agent definitions
-│       │   └── tasks.yaml      # Task definitions
+│       │   ├── agents.yaml    
+│       │   └── tasks.yaml     
 │       │
-│       ├── tools/              # Custom tools (future use)
+│       ├── tools/             
 │       │
 │       ├── **init**.py
-│       ├── crew.py             # Crew configuration
-│       └── main.py             # Entry point
+│       ├── crew.py            
+│       └── main.py             
 │
-├── tests/                      # Unit / integration tests
+├── tests/                     
 │
-├── .env                        # Environment variables
-├── .gitignore
-├── demo.ipynb                  # Experimentation notebook
-├── pyproject.toml              # Project metadata
-├── requirements.txt            # Dependencies
-├── uv.lock                     # Dependency lock file
+├── .env                        
+├── demo.ipynb                  
+├── pyproject.toml              
+├── requirements.txt            
+├── uv.lock                     
 └── README.md
 
 ````
